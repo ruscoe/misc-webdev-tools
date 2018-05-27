@@ -22,8 +22,6 @@ for filename in files:
     pil = Image.open(args.path + '/' + filename).convert('L')
     width, height = pil.size
 
-    imagedata = [filename, width, height]
-
     # Build YML output.
     output += '- filename: ' + filename + '\n'
     output += '\twidth: ' + str(width) + '\n'
