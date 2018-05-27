@@ -26,6 +26,7 @@ for filename in files:
     output += '- filename: ' + filename + '\n'
     output += '\twidth: ' + str(width) + '\n'
     output += '\theight: ' + str(height) + '\n'
+    output += '\n'
 
 # Print YML output.
 print output
