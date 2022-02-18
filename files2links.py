@@ -8,6 +8,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-p", "--path", type=str, required=True, help="the path to the files")
+parser.add_argument("-f", "--prefix", type=str, required=False, help="optional prefix to file links", default="")
 
 args = parser.parse_args()
 
@@ -17,7 +18,7 @@ output += '<ul>\n'
 files = listdir(args.path)
 for filename in files:
     # Build HTML output.
-    output += '<li><a href="' + filename + '">' + filename + '</a></li>\n'
+    output += '<li><a href="' + args.prefix + filename + '">' + filename + '</a></li>\n'
 
 output += '</ul>\n'
 output += '</html>\n'
