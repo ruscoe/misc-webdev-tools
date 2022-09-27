@@ -10,3 +10,8 @@ Jekyll sites.
 
 Python script that reads a directory of files and outputs HTML link elements
 pointing to the individual files.
+
+## thumbnails.sh
+
+Bash script that uses ImageMagick to generate square thumbnails from a
+directory of images.
