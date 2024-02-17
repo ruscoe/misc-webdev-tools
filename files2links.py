@@ -24,4 +24,4 @@ output += '</ul>\n'
 output += '</html>\n'
 
 # Print HTML output.
-print output
+print (output)
