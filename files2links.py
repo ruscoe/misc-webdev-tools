@@ -16,6 +16,7 @@ output = '<html>\n'
 output += '<ul>\n'
 
 files = listdir(args.path)
+files.sort()
 for filename in files:
     # Build HTML output.
     output += '<li><a href="' + args.prefix + filename + '">' + filename + '</a></li>\n'
