@@ -29,4 +29,4 @@ for filename in files:
     output += '\n'
 
 # Print YML output.
-print output
+print (output)
