@@ -15,3 +15,7 @@ pointing to the individual files.
 
 Bash script that uses ImageMagick to generate square thumbnails from a
 directory of images.
+
+## swf2png.sh
+
+Bash script that uses SWFTools to convert a directory of swf files to png images.
